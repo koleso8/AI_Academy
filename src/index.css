@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  font-family: 'Cuprum', sans-serif;
+}
+
+.active {
+  color: #1d4ed8;
+}
+
+.hideHeader {
+  transform: translateY(-100%);
+}
