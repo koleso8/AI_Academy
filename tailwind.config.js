@@ -5,6 +5,7 @@ export default {
     extend: {
       backgroundImage: {
         'bg-pattern': "url('/public/background.png')",
+        'bg-vector': "url('/public/vector.png')",
       },
     },
   },

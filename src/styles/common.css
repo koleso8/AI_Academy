@@ -33,12 +33,13 @@
 
 .impCard {
   border-radius: 5px;
-  background: #8100bc;
+  background: linear-gradient(180deg, #582acf 0%, #240c2e 100%);
   padding: 30px;
   font-weight: 400;
   color: #fff;
   width: 460px;
 }
+
 .cardSub {
   line-height: 18px;
 }

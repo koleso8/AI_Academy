@@ -3,7 +3,7 @@ import Navigation from './Navigation';
 
 const Footer = () => {
   return (
-    <footer className="w-full">
+    <footer className="w-full relative z-10">
       <Container>
         <div className="flex flex-col items-center">
           <h5 className="font-bold text-4xl text-white mb-16">
@@ -12,7 +12,7 @@ const Footer = () => {
           <Navigation />
           <button
             href={'/'}
-            className=" py-4 px-14 bg-[var(--button-bg)] text-[var(--button-text)] rounded-[85px] mt-14 mb-14"
+            className=" py-4 px-14 bg-[var(--button-bg)] text-[var(--button-text)] rounded-[85px] mt-14 mb-14 hover:scale-105 transition-all"
           >
             JOIN ACADEMY NOW
           </button>

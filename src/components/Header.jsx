@@ -10,7 +10,7 @@ const Header = () => {
     <header className=" ">
       <section>
         <Container>
-          <div className="flex items-center justify-between w-[1080px]">
+          <div className="flex items-center justify-between w-[1080px] relative z-10">
             <Button text={'CA'} to={'#123'} />
             <Button text={'ACADEMY'} to={'#123'} />
           </div>

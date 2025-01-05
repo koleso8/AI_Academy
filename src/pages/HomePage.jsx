@@ -10,13 +10,13 @@ const HomePage = () => {
   useEffect(() => scrollToTop());
 
   return (
-    <section>
+    <>
       <Hero />
       <About />
       <Structure_1 />
       <Important_2 />
       <Tokenomics_3 />
-    </section>
+    </>
   );
 };
 
