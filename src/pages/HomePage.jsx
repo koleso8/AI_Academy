@@ -10,7 +10,7 @@ const HomePage = () => {
   useEffect(() => scrollToTop());
 
   return (
-    <section className="">
+    <section>
       <Hero />
       <About />
       <Structure_1 />

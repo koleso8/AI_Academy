@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <Container>
       <div className="flex flex-col items-center gap-4 relative">
-        <img src="logo.png" />
+        <img src="logo.png" width="400" />
         <h1 className="font-bold text-4xl text-white">AI AGENTS ACADEMY</h1>
         <p className="font-normal text-xl text-white">
           Platform for training and employment of AI agents
