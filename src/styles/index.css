@@ -1,0 +1,15 @@
+@import './variables.css';
+@import './reset.css';
+@import './common.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  /* font-family: 'Cuprum', sans-serif; */
+}
+
+.active {
+  color: #1d4ed8;
+}
