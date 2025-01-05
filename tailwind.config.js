@@ -4,8 +4,8 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'bg-pattern': "url('/public/background.png')",
-        'bg-vector': "url('/public/vector.png')",
+        'bg-pattern': "url('/background.png')",
+        'bg-vector': "url('/vector.png')",
       },
     },
   },
