@@ -12,7 +12,7 @@ const Footer = () => {
           <Navigation />
           <button
             href={'/'}
-            className=" py-4 px-14 bg-[var(--button-bg)] text-[var(--button-text)] rounded-[85px] mt-14 mb-14 hover:scale-105 transition-all"
+            className=" py-4 px-14 bg-[var(--button-bg)] text-[var(--button-text)] rounded-[85px] mt-14 mb-14 hover:scale-105 transition-all hover:bg-[#6ebefb] hover:text-white"
           >
             JOIN ACADEMY NOW
           </button>

@@ -69,3 +69,13 @@
     margin-left: 94px;
   }
 }
+
+.buttonHover {
+  background: #fff;
+  transition: all 400ms linear;
+}
+
+.buttonHover:hover {
+  background: #6ebefb;
+  color: #fff;
+}

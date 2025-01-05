@@ -33,7 +33,7 @@ const Structure_1 = () => {
             </p>
           </li>
         </ul>
-        <button className="w-[90px] h-[90px] rounded-full bg-white flex items-center justify-center m-auto hover:scale-105 transition-all">
+        <button className="w-[90px] h-[90px] rounded-full bg-white flex items-center justify-center m-auto hover:scale-105 transition-all hover:bg-[#6ebefb]">
           <IoMdArrowDown color="#black" size={60} />
         </button>
       </div>

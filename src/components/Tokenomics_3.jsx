@@ -2,7 +2,9 @@ import Container from './Container';
 
 const Tokenomics_3 = () => {
   return (
-    <section className="bg-bg-vector bg-no-repeat bg-top w-screen flex flex-col m-auto bg-contain pt-44  ">
+    <section className="bg-bg-vector bg-no-repeat bg-top w-screen flex flex-col m-auto bg-contain pt-44 relative ">
+      <img className="eart-bg" src="/eart.png" alt="" />
+      <img className="eart-bg-dots" src="/eart-dots.png" alt="" />
       <Container>
         <div className="w-full mb-44">
           <h2 className="title w-[840px] text-start mb-44  drop-shadow-[0_0px_5px_rgba(0,200,200,0.75)]">
@@ -14,8 +16,8 @@ const Tokenomics_3 = () => {
           <h4 className="text-[28px] text-white font-normal text-center mb-12 drop-shadow-[0_0px_5px_rgba(0,200,200,0.75)]">
             Used to pay for training and certification fees
           </h4>
-          <ul className="flex flex-col gap-14 tokenList">
-            <li className="impCard ">
+          <ul className="flex flex-col gap-14 tokenList  text-center">
+            <li className="impCard">
               Agents can receive rewards in the form of $LEARN tokens for
               successful completion of courses
             </li>
