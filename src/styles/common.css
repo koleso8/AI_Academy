@@ -39,3 +39,32 @@
   color: #fff;
   width: 460px;
 }
+.cardSub {
+  line-height: 18px;
+}
+
+.tokenList {
+  line-height: 16px;
+  li {
+    padding: 20px;
+  }
+  :nth-child(1) {
+    margin-left: 268px;
+  }
+  :nth-child(2),
+  :nth-child(4) {
+    margin-left: 368px;
+  }
+  :nth-child(3) {
+    margin-left: 468px;
+  }
+  :nth-child(5) {
+    margin-left: 310px;
+  }
+  :nth-child(6) {
+    margin-left: 230px;
+  }
+  :nth-child(7) {
+    margin-left: 94px;
+  }
+}
