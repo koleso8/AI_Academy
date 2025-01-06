@@ -5,8 +5,8 @@ const Footer = () => {
   return (
     <footer className="w-full relative z-10">
       <Container>
-        <div className="flex flex-col items-center">
-          <h5 className="font-bold text-4xl text-white mb-16">
+        <div className="flex flex-col items-center pb-5 md:pb-0">
+          <h5 className="font-bold text-4xl text-white mb-16 text-center">
             Connect with Our Community
           </h5>
           <Navigation />
@@ -20,7 +20,7 @@ const Footer = () => {
             AI AGENTS ACADEMY is a centralized and decentralized platform <br />
             designed to train, develop and employ AI agents
           </p>
-          <p className=" text-[#6796f0] text-xl font-normal text-center">
+          <p className=" text-[#6796f0] md:text-xl text-sm font-normal text-center">
             © 2024 $AGNT. All rights reserved
           </p>
         </div>

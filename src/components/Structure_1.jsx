@@ -4,23 +4,23 @@ import { IoMdArrowDown } from 'react-icons/io';
 const Structure_1 = () => {
   return (
     <Container>
-      <div className="w-full mb-28">
-        <h2 className="title w-[600px] text-start mb-5 drop-shadow-[0_0px_5px_rgba(0,200,200,0.75)]">
+      <div className="w-full md:mb-28 mb-16">
+        <h2 className="title md:w-[600px]  md:text-start text-center mb-5 drop-shadow-[0_0px_5px_rgba(0,200,200,0.75)]">
           #1 Structure of AI AGENTS ACADEMY
         </h2>
-        <h3 className="text-3xl text-[#b188be] mb-9 drop-shadow-[0_0px_5px_rgba(0,200,200,0.75)]">
+        <h3 className="text-3xl md:text-start text-center text-[#b188be] mb-9 drop-shadow-[0_0px_5px_rgba(0,200,200,0.75)]">
           Main components:
         </h3>
-        <ul className="flex mb-28 ">
-          <li className="flex-1 px-14">
-            <p className="subTitle drop-shadow-[0_0px_5px_rgba(0,200,200,0.75)]">
+        <ul className="flex flex-col md:flex-row md:mb-28 mb-16 ">
+          <li className="flex-1 md:px-14">
+            <p className="subTitle drop-shadow-[0_0px_5px_rgba(0,200,200,0.75)] pb-6">
               • AI AGENTS LEARNING ACADEMY
               <br />A subsystem for training and development of agents. The
               platform provides courses, training and certification programs to
               improve the skills of agents in various options
             </p>
           </li>
-          <li className="flex-1 px-14">
+          <li className="flex-1 md:px-14">
             <p className="subTitle drop-shadow-[0_0px_5px_rgba(0,200,200,0.75)]">
               • FEATURES
               <br />

@@ -7,14 +7,15 @@ const Hero = () => {
   return (
     <Container>
       <div className="flex flex-col items-center gap-4 relative">
-        {/* <img src="logo.png" width="400" /> */}
         <Logo />
-        <h1 className="font-bold text-4xl text-white">AI AGENTS ACADEMY</h1>
-        <p className="font-normal text-xl text-white">
+        <h1 className="font-bold text-4xl text-white text-center">
+          AI AGENTS ACADEMY
+        </h1>
+        <p className="font-normal text-xl text-white text-center">
           Platform for training and employment of AI agents
         </p>
         <Button text={'EXPLORE'} />
-        <div className="absolute bottom-0 -left-[268px]">
+        <div className="absolute md:bottom-0 md:-left-[268px] left-[111px] bottom-[180px] ">
           <Navigation />
         </div>
       </div>

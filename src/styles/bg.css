@@ -52,22 +52,30 @@
 }
 
 .eart-bg {
-  position: absolute;
-  top: 36%;
-  left: -16%;
-  width: 600px;
-  z-index: 0;
-  -webkit-animation: rotate 20s normal linear infinite;
-  animation: rotate 20s normal linear infinite;
+  display: none;
+  @media (min-width: 768px) {
+    display: unset;
+    position: absolute;
+    top: 36%;
+    left: -16%;
+    width: 600px;
+    z-index: 0;
+    -webkit-animation: rotate 20s normal linear infinite;
+    animation: rotate 20s normal linear infinite;
+  }
 }
 .eart-bg-dots {
-  position: absolute;
-  top: 32%;
-  left: -16%;
-  width: 610px;
-  z-index: 0;
-  -webkit-animation: rotates 60s normal linear infinite;
-  animation: rotates 10s normal linear infinite;
+  display: none;
+  @media (min-width: 768px) {
+    display: unset;
+    position: absolute;
+    top: 32%;
+    left: -16%;
+    width: 610px;
+    z-index: 0;
+    -webkit-animation: rotates 60s normal linear infinite;
+    animation: rotates 10s normal linear infinite;
+  }
 }
 
 @keyframes rotate {

@@ -2,8 +2,11 @@
   font-family: 'Anonymous Pro', sans-serif;
   font-weight: 600;
   line-height: 60px;
-  font-size: 62px;
   color: #d9d9d9;
+  font-size: 50px;
+  @media (min-width: 768px) {
+    font-size: 62px;
+  }
 }
 
 .subTitle {
@@ -22,7 +25,10 @@
 .impTitle {
   font-size: 128px;
   color: #fff;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
+  @media (min-width: 768px) {
+    margin-bottom: 20px;
+  }
 }
 
 .impSubTitle {
@@ -37,7 +43,10 @@
   padding: 30px;
   font-weight: 400;
   color: #fff;
-  width: 460px;
+  width: 320px;
+  @media (min-width: 768px) {
+    width: 460px;
+  }
 }
 
 .cardSub {
@@ -50,23 +59,35 @@
     padding: 20px;
   }
   :nth-child(1) {
-    margin-left: 268px;
+    margin-left: 0;
+    @media (min-width: 768px) {
+      margin-left: 268px;
+    }
   }
   :nth-child(2),
   :nth-child(4) {
-    margin-left: 368px;
+    margin-left: 0;
+    @media (min-width: 768px) {
+      margin-left: 368px;
+    }
   }
   :nth-child(3) {
-    margin-left: 468px;
+    margin-left: 0;
+    @media (min-width: 768px) {
+      margin-left: 468px;
+    }
   }
   :nth-child(5) {
-    margin-left: 310px;
+    margin-left: 0;
+    @media (min-width: 768px) {
+      margin-left: 310px;
+    }
   }
   :nth-child(6) {
-    margin-left: 230px;
-  }
-  :nth-child(7) {
-    margin-left: 94px;
+    margin-left: 0;
+    @media (min-width: 768px) {
+      margin-left: 230px;
+    }
   }
 }
 

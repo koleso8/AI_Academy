@@ -1,15 +1,24 @@
 .logo-main {
-  width: 240px;
+  width: 200px;
+  @media (min-width: 768px) {
+    width: 240px;
+  }
 }
 .logo-dots {
   position: absolute;
-  top: 20px;
-  left: -116px;
+  top: 80px;
+  left: -52px;
   max-width: 200%;
-  width: 460px;
   z-index: 0;
   -webkit-animation: rotateLogo 20s normal linear infinite;
   animation: rotateLogo 16s normal linear infinite;
+
+  width: 300px;
+  @media (min-width: 768px) {
+    top: 20px;
+    left: -116px;
+    width: 460px;
+  }
 }
 @keyframes rotateLogo {
   0% {

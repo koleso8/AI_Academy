@@ -4,18 +4,18 @@ const Important_2 = () => {
   return (
     <Container>
       <div className="w-full mb-20 ">
-        <h2 className="title w-[840px] text-start mb-14 drop-shadow-[0_0px_5px_rgba(0,200,200,0.75)]">
+        <h2 className="title md:w-[840px] md:text-start text-center md:mb-14 drop-shadow-[0_0px_5px_rgba(0,200,200,0.75)]">
           #2 Important functions and components
         </h2>
         <ul className="flex flex-col w-full items-center ">
           <li className="w-full">
-            <h3 className="impTitle drop-shadow-[0_0px_5px_rgba(0,200,200,0.75)] ">
+            <h3 className="impTitle drop-shadow-[0_0px_5px_rgba(0,200,200,0.75)] text-center md:text-start">
               A
             </h3>
-            <h4 className="impSubTitle drop-shadow-[0_0px_5px_rgba(0,200,200,0.75)]">
+            <h4 className="impSubTitle drop-shadow-[0_0px_5px_rgba(0,200,200,0.75)] text-center md:text-start">
               Agent Training and Development
             </h4>
-            <div className="flex gap-9 justify-center ">
+            <div className="flex flex-col md:flex-row gap-9 justify-center items-center ">
               <div className="impCard transition-all ">
                 <h5 className="pb-5 font-bold text-center drop-shadow-[0_0px_5px_rgba(0,200,200,0.75)]">
                   • PERSONALIZED TRAINING
@@ -24,7 +24,7 @@ const Important_2 = () => {
                   Agents will take courses customized based on their current
                   skills and goals.The training will utilize adaptive learning
                 </p>
-                <h5 className="pb-5 font-bold text-center w-[360px] drop-shadow-[0_0px_5px_rgba(0,200,200,0.75)]">
+                <h5 className="pb-5 font-bold text-center md:w-[360px] drop-shadow-[0_0px_5px_rgba(0,200,200,0.75)]">
                   • INTERACTIVE COURSES AND HANDS-ON ASSGNMENTS
                 </h5>
                 <p className="cardSub  text-center drop-shadow-[0_0px_5px_rgba(0,200,200,0.75)]">
@@ -54,13 +54,13 @@ const Important_2 = () => {
             </div>
           </li>
           <li className="w-full">
-            <h3 className="impTitle drop-shadow-[0_0px_5px_rgba(0,200,200,0.75)]">
+            <h3 className="impTitle drop-shadow-[0_0px_5px_rgba(0,200,200,0.75)] text-center md:text-start">
               B
             </h3>
-            <h4 className="impSubTitle drop-shadow-[0_0px_5px_rgba(0,200,200,0.75)]">
+            <h4 className="impSubTitle drop-shadow-[0_0px_5px_rgba(0,200,200,0.75)] text-center md:text-start">
               Integration with local and international labor markets
             </h4>
-            <div className="flex gap-9 justify-center ">
+            <div className="flex flex-col md:flex-row gap-9 justify-center items-center ">
               <div className="impCard ">
                 <h5 className="pb-5 font-bold text-center drop-shadow-[0_0px_5px_rgba(0,200,200,0.75)]">
                   Access to international market:
@@ -83,13 +83,13 @@ const Important_2 = () => {
             </div>
           </li>
           <li className="w-full">
-            <h3 className="impTitle drop-shadow-[0_0px_5px_rgba(0,200,200,0.75)]">
+            <h3 className="impTitle drop-shadow-[0_0px_5px_rgba(0,200,200,0.75)] text-center md:text-start">
               C
             </h3>
-            <h4 className="impSubTitle drop-shadow-[0_0px_5px_rgba(0,200,200,0.75)]">
+            <h4 className="impSubTitle drop-shadow-[0_0px_5px_rgba(0,200,200,0.75)] text-center md:text-start">
               Verification and Security
             </h4>
-            <div className="flex gap-9 justify-center ">
+            <div className="flex flex-col md:flex-row gap-9 justify-center items-center ">
               <div className="impCard ">
                 <h5 className="pb-5 font-bold text-center drop-shadow-[0_0px_5px_rgba(0,200,200,0.75)]">
                   Identity Verification:
