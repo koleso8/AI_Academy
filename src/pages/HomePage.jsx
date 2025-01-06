@@ -12,7 +12,7 @@ const HomePage = () => {
   useEffect(() => scrollToTop());
 
   return (
-    <>
+    <div className="lg:pt-[40px] lg:pb-[120px]">
       <Header />
       <Hero />
       <About />
@@ -20,7 +20,7 @@ const HomePage = () => {
       <Important_2 />
       <Tokenomics_3 />
       <Footer />
-    </>
+    </div>
   );
 };
 

@@ -1,22 +1,46 @@
+import { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 import Container from './Container';
 
 const Important_2 = () => {
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
   return (
     <Container>
       <div className="w-full mb-20 ">
-        <h2 className="title md:w-[840px] md:text-start text-center md:mb-14 drop-shadow-[0_0px_5px_rgba(0,200,200,0.75)]">
+        <h2
+          className="title md:w-[840px] md:text-start text-center md:mb-14 drop-shadow-[0_0px_5px_rgba(0,200,200,0.75)]"
+          data-aos="fade-right"
+          data-aos-duration="900"
+        >
           #2 Important functions and components
         </h2>
         <ul className="flex flex-col w-full items-center ">
           <li className="w-full">
-            <h3 className="impTitle drop-shadow-[0_0px_5px_rgba(0,200,200,0.75)] text-center md:text-start">
+            <h3
+              className="impTitle drop-shadow-[0_0px_5px_rgba(0,200,200,0.75)] text-center md:text-start"
+              data-aos="fade-right"
+              data-aos-duration="1000"
+            >
               A
             </h3>
-            <h4 className="impSubTitle drop-shadow-[0_0px_5px_rgba(0,200,200,0.75)] text-center md:text-start">
+            <h4
+              className="impSubTitle drop-shadow-[0_0px_5px_rgba(0,200,200,0.75)] text-center md:text-start"
+              data-aos="zoom-in"
+              data-aos-duration="900"
+            >
               Agent Training and Development
             </h4>
             <div className="flex flex-col md:flex-row gap-9 justify-center items-center ">
-              <div className="impCard transition-all ">
+              <div
+                className="impCard transition-all "
+                data-aos="flip-right"
+                data-aos-duration="900"
+              >
                 <h5 className="pb-5 font-bold text-center drop-shadow-[0_0px_5px_rgba(0,200,200,0.75)]">
                   • PERSONALIZED TRAINING
                 </h5>
@@ -33,7 +57,11 @@ const Important_2 = () => {
                   development, and data analytics
                 </p>
               </div>
-              <div className="impCard ">
+              <div
+                className="impCard "
+                data-aos="flip-left"
+                data-aos-duration="900"
+              >
                 <h5 className="pb-5 font-bold text-center drop-shadow-[0_0px_5px_rgba(0,200,200,0.75)]">
                   • PROGRESS ASSESSMENTS
                 </h5>
@@ -54,14 +82,26 @@ const Important_2 = () => {
             </div>
           </li>
           <li className="w-full">
-            <h3 className="impTitle drop-shadow-[0_0px_5px_rgba(0,200,200,0.75)] text-center md:text-start">
+            <h3
+              className="impTitle drop-shadow-[0_0px_5px_rgba(0,200,200,0.75)] text-center md:text-start"
+              data-aos="fade-right"
+              data-aos-duration="900"
+            >
               B
             </h3>
-            <h4 className="impSubTitle drop-shadow-[0_0px_5px_rgba(0,200,200,0.75)] text-center md:text-start">
+            <h4
+              className="impSubTitle drop-shadow-[0_0px_5px_rgba(0,200,200,0.75)] text-center md:text-start"
+              data-aos="zoom-in"
+              data-aos-duration="900"
+            >
               Integration with local and international labor markets
             </h4>
             <div className="flex flex-col md:flex-row gap-9 justify-center items-center ">
-              <div className="impCard ">
+              <div
+                className="impCard "
+                data-aos="flip-right"
+                data-aos-duration="900"
+              >
                 <h5 className="pb-5 font-bold text-center drop-shadow-[0_0px_5px_rgba(0,200,200,0.75)]">
                   Access to international market:
                 </h5>
@@ -71,7 +111,11 @@ const Important_2 = () => {
                   country
                 </p>
               </div>
-              <div className="impCard ">
+              <div
+                className="impCard "
+                data-aos="flip-left"
+                data-aos-duration="900"
+              >
                 <h5 className="pb-5 font-bold text-center  drop-shadow-[0_0px_5px_rgba(0,200,200,0.75)]">
                   Adaptation for different markets:
                 </h5>
@@ -83,14 +127,26 @@ const Important_2 = () => {
             </div>
           </li>
           <li className="w-full">
-            <h3 className="impTitle drop-shadow-[0_0px_5px_rgba(0,200,200,0.75)] text-center md:text-start">
+            <h3
+              className="impTitle drop-shadow-[0_0px_5px_rgba(0,200,200,0.75)] text-center md:text-start"
+              data-aos="fade-right"
+              data-aos-duration="900"
+            >
               C
             </h3>
-            <h4 className="impSubTitle drop-shadow-[0_0px_5px_rgba(0,200,200,0.75)] text-center md:text-start">
+            <h4
+              className="impSubTitle drop-shadow-[0_0px_5px_rgba(0,200,200,0.75)] text-center md:text-start"
+              data-aos="zoom-in"
+              data-aos-duration="900"
+            >
               Verification and Security
             </h4>
             <div className="flex flex-col md:flex-row gap-9 justify-center items-center ">
-              <div className="impCard ">
+              <div
+                className="impCard "
+                data-aos="flip-right"
+                data-aos-duration="900"
+              >
                 <h5 className="pb-5 font-bold text-center drop-shadow-[0_0px_5px_rgba(0,200,200,0.75)]">
                   Identity Verification:
                 </h5>
@@ -100,7 +156,11 @@ const Important_2 = () => {
                   real people with verified credentials
                 </p>
               </div>
-              <div className="impCard ">
+              <div
+                className="impCard "
+                data-aos="flip-left"
+                data-aos-duration="900"
+              >
                 <h5 className="pb-5 font-bold text-center  drop-shadow-[0_0px_5px_rgba(0,200,200,0.75)]">
                   Adaptation for different markets:
                 </h5>

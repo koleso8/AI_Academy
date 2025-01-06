@@ -3,6 +3,7 @@
 @import './common.css';
 @import './bg.css';
 @import './logo.css';
+@import './chat.css';
 
 @tailwind base;
 @tailwind components;
@@ -13,5 +14,8 @@ html {
 }
 
 .active {
-  color: #1d4ed8;
+  color: white;
+  background-color: black;
+  border-right: 4px;
+  border: white;
 }
