@@ -4,7 +4,7 @@ import ChatModal from './ChatModal';
 
 const Home = () => {
   return (
-    <div className="text-white h-[90%]">
+    <div className="text-white h-[96%]">
       <BGForOutlet />
       <ChatModal>
         <div className="flex flex-col items-center">
