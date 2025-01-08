@@ -1,41 +1,37 @@
-import { NavLink, Outlet } from 'react-router-dom';
-import Home from '../components/chat/Home';
+import { IoArrowBackCircleSharp } from 'react-icons/io5';
+import { Link, NavLink, Outlet } from 'react-router-dom';
 
 const Chat = () => {
   return (
     <div className="flex w-screen h-screen overflow-hidden">
-      <aside className="text-white flex flex-col w-80  h-full bg-gradient-to-r from-blue-400 to-purple-600 pt-4">
-        <nav className="flex flex-col  navigationChat h-full">
-          <NavLink to="/" className="text-black  px-4 text-lg mb-8">
-            Back to site
-          </NavLink>
-          <NavLink to="/chat" className="text-black  px-4 text-lg mb-5">
+      <aside className="text-white flex flex-col w-96   h-full pt-4  bg-black border-r-2 border-[#87ceeb] fixed z-50 ">
+        <nav className="flex flex-col  navigationChat h-full ">
+          <Link to="/" className="t px-4 text-lg mb-8 flex gap-4 py-2">
+            <IoArrowBackCircleSharp size={30} /> Back to site
+          </Link>
+          <Link to="/chat" className="  px-4 text-lg mb-5 py-2">
             Home
+          </Link>
+          <NavLink to="agent_training" className=" px-4 text-lg py-2">
+            <span>Agent Training</span>
           </NavLink>
-          <NavLink to="solana" className="text-black  px-4 text-lg ">
-            <span>Solana Money Sender</span>
+          <NavLink
+            to="integration_with_local_and_internationa_labo_markets"
+            className="  px-4 text-lg py-2"
+          >
+            <span>
+              Integration with local and international labor markets (soon)
+            </span>
           </NavLink>
-          <NavLink to="lp" className="text-black  px-4 text-lg">
-            <span>LP Specialist</span>
-          </NavLink>
-          <NavLink to="copy" className="text-black  px-4 text-lg ">
-            <span>Copy Trading</span>
-          </NavLink>
-          <NavLink to="stake" className="text-black px-4 text-lg">
-            <span>Solana Stake</span>
-          </NavLink>
-          <NavLink to="researcher" className="text-black  px-4 text-lg">
-            <span>Researcher Agent</span>
-          </NavLink>
-          <NavLink to="educational" className="text-black  px-4 text-lg ">
-            <span>Educational Agent</span>
-          </NavLink>
-          <NavLink to="payment" className="text-black px-4 text-lg">
-            <span>AI Payment Agent</span>
+          <NavLink
+            to="verification_and_security"
+            className=" px-4 text-lg py-2"
+          >
+            <span>Verification and Security (soon)</span>
           </NavLink>
         </nav>
       </aside>
-      <div className="flex flex-col justify-between  w-full h-full p-6">
+      <div className="flex flex-col justify-between  w-full h-full p-6 pl-[418px]">
         <Outlet />
       </div>
     </div>

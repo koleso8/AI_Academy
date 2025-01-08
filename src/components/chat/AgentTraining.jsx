@@ -1,14 +1,15 @@
 import React from 'react';
 import Input from './Input';
+import BGForOutlet from './BGForOutlet';
 
-const Solana = () => {
+const AgentTraining = () => {
   return (
     <div className="flex flex-col justify-between h-full">
-      <p className="text-white">Solana</p>
+      <BGForOutlet bottom={false} />
+      asd
       <Input />
     </div>
   );
 };
 
-export default Solana;
-Solana;
+export default AgentTraining;
