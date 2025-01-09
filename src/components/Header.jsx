@@ -20,7 +20,7 @@ const Header = () => {
             data-aos-duration="2000"
           >
             <Button text={'CA'} to={'#123'} />
-            <Button text={'ACADEMY'} link={'chat'} />
+            <Button text={'ACADEMY'} link={'http://asdsa'} />
           </div>
         </Container>
       </section>
