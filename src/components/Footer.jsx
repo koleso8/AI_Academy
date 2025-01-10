@@ -45,7 +45,7 @@ const Footer = () => {
             data-aos-duration="4000"
             data-aos-anchor-placement="top-bottom"
           >
-            © 2024 $AGNT. All rights reserved
+            © 2025 $AGNT. All rights reserved
           </p>
         </div>
       </Container>
