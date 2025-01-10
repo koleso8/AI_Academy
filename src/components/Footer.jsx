@@ -24,7 +24,7 @@ const Footer = () => {
           <a
             id="footer"
             target="_blank"
-            href={'https://CHAT_DOMAIN'}
+            href={'https://app.agntacademy.ai'}
             className=" py-4 px-14 bg-[var(--button-bg)] text-[var(--button-text)] rounded-[85px] mt-14 mb-14 hover:scale-105 transition-all hover:bg-[#6ebefb] hover:text-white"
             data-aos="zoom-in"
             data-aos-duration="4000"
