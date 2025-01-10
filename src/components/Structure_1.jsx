@@ -4,6 +4,8 @@ import 'aos/dist/aos.css';
 
 import Container from './Container';
 import { IoMdArrowDown } from 'react-icons/io';
+import { Link } from 'react-router-dom';
+import { scrollToBottom } from '../helpers/scrollToBottom';
 
 const Structure_1 = () => {
   useEffect(() => {
@@ -58,6 +60,7 @@ const Structure_1 = () => {
           </li>
         </ul>
         <button
+          onClick={() => scrollToBottom()}
           className="w-[90px] h-[90px] rounded-full bg-white flex items-center justify-center m-auto hover:scale-105 transition-all hover:bg-[#6ebefb]"
           data-aos="zoom-in"
           data-aos-duration="900"

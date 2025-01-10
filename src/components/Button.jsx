@@ -10,6 +10,7 @@ const Button = ({ text, link }) => {
   return (
     <a
       href={link}
+      target="_blank"
       className="min-w-16 py-2.5 px-5  text-[var(--button-text)] rounded-[5px]  buttonHover"
       data-aos-anchor-placement="top-bottom"
     >

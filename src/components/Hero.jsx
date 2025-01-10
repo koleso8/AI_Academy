@@ -31,7 +31,7 @@ const Hero = () => {
           Platform for training and employment of AI agents
         </p>
         <div data-aos="zoom-in" data-aos-duration="2000">
-          <Button text={'EXPLORE'} />
+          <Button text={'EXPLORE'} link={'https://CHAT_DOMAIN'} />
         </div>
         <div className="absolute md:bottom-0 md:-left-[268px] left-[111px] bottom-[180px] ">
           <Navigation />

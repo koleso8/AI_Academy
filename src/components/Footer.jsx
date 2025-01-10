@@ -21,14 +21,16 @@ const Footer = () => {
             Connect with Our Community
           </h5>
           <Navigation />
-          <button
-            href={'/'}
+          <a
+            id="footer"
+            target="_blank"
+            href={'https://CHAT_DOMAIN'}
             className=" py-4 px-14 bg-[var(--button-bg)] text-[var(--button-text)] rounded-[85px] mt-14 mb-14 hover:scale-105 transition-all hover:bg-[#6ebefb] hover:text-white"
             data-aos="zoom-in"
             data-aos-duration="4000"
           >
             JOIN ACADEMY NOW
-          </button>
+          </a>
           <p
             className="text-xl font-normal text-white text-center mb-12"
             data-aos="zoom-in"
