@@ -38,7 +38,7 @@ const Hero = () => {
         >
           <Button text={'ACADEMY'} link={'https://app.agntacademy.ai'} />
         </div>
-        <div className="absolute md:bottom-0 md:-left-[268px] left-[60px] bottom-[160px] ">
+        <div className="absolute md:-bottom-3 md:-left-[268px] left-[60px] bottom-[160px] ">
           <Navigation />
         </div>
       </div>

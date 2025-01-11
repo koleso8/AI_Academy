@@ -54,8 +54,8 @@ const Tokenomics_3 = () => {
             data-aos="fade-left"
             data-aos-duration="900"
           >
-            <div className="flex flex-col rounded-xl bg-black border-blue-300 border-[1px] gap-9 px-5 md:px-11 py-6 md:py-12 text-white max-w-[320px] md:max-w-[536px] mb-6 pb-3 text-wrap md:text-nowrap">
-              <div className="flex justify-between md:gap-40 gap-20">
+            <div className="flex flex-col rounded-xl bg-black border-blue-300 border-[1px] gap-9 px-5 md:px-11 py-6 md:py-12 text-white max-w-[320px] md:max-w-[1000px] w-[800px]   pb-3 text-wrap md:text-nowrap  mb-20 md:text-2xl">
+              <div className="flex justify-between md:gap-40 gap-20 ">
                 <p>SOL Blockchain</p>
                 <p>Supply 1,000,000,000</p>
               </div>
@@ -64,18 +64,18 @@ const Tokenomics_3 = () => {
                 <p>Ticker $AGNT</p>
               </div>
               <p>Contract: Soon</p>
-              <div></div>
+
+              <a
+                href={'https://buy'}
+                target="_blank"
+                className="min-w-16 py-2.5 px-9  text-[var(--button-text)] rounded-[5px]  buttonHover text-center max-w-24 md:max-w-[300px] m-auto"
+                data-aos-anchor-placement="top-bottom"
+                data-aos="fade-right"
+                data-aos-duration="900"
+              >
+                BUY
+              </a>
             </div>
-            <a
-              href={'https://buy'}
-              target="_blank"
-              className="min-w-16 py-2.5 px-9  text-[var(--button-text)] rounded-[5px]  buttonHover mb-20"
-              data-aos-anchor-placement="top-bottom"
-              data-aos="fade-right"
-              data-aos-duration="900"
-            >
-              BUY
-            </a>
             <ul className="flex flex-col items-center md:items-end md:gap-14 gap-4 tokenList  text-center">
               <li
                 className="impCard"

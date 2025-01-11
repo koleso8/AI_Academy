@@ -49,6 +49,13 @@
   }
 }
 
+.imp .impCard {
+  width: 320px;
+  @media (min-width: 768px) {
+    width: 460px;
+  }
+}
+
 .cardSub {
   line-height: 18px;
 }

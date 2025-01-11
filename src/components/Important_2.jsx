@@ -11,7 +11,7 @@ const Important_2 = () => {
   }, []);
   return (
     <Container>
-      <div className="w-full mb-20 ">
+      <div className="w-full mb-20 imp">
         <h2
           className="title md:w-[840px] md:text-start text-center md:mb-14 drop-shadow-[0_0px_5px_rgba(0,200,200,0.75)]"
           data-aos="fade-right"
