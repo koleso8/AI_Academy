@@ -17,28 +17,28 @@ const Navigation = () => {
       data-aos-anchor-placement="top-bottom"
     >
       <a
-        href="x"
+        href="https://x.com/agntacademy"
         target="_blank"
         className="flex w-12 h-12 border-2 rounded-full items-center justify-center hover:scale-105 transition-all hover:border-[#6ebefb]"
       >
         <FaXTwitter color="#fff" size={30} />
       </a>
       <a
-        href="tg"
+        href="https://t.me/agntacademy"
         target="_blank"
         className="flex w-12 h-12 border-2 rounded-full pr-1 items-center justify-center hover:scale-105 transition-all hover:border-[#6ebefb]"
       >
         <FaTelegramPlane color="#fff" size={30} />
       </a>
       <a
-        href="tg"
+        href="https://raydium.io/swap/?inputMint=sol&outputMint=AcaDeMYwmB6VvZZK7BrYnQawMknnHKbvihPXKoYPgmaf"
         target="_blank"
         className="flex w-12 h-12 border-2 rounded-full items-center justify-center hover:scale-105 transition-all hover:border-[#6ebefb]"
       >
         <img src="/raydium.png" width={25}></img>
       </a>
       <a
-        href="tg"
+        href="https://dexscreener.com/solana/AcaDeMYwmB6VvZZK7BrYnQawMknnHKbvihPXKoYPgmaf"
         target="_blank"
         className="flex w-12 h-12 border-2 rounded-full items-center justify-center hover:scale-105 transition-all hover:border-[#6ebefb]"
       >

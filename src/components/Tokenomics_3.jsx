@@ -63,10 +63,14 @@ const Tokenomics_3 = () => {
                 <p>LP tokens burned </p>
                 <p>Ticker $AGNT</p>
               </div>
-              <p>Contract: Soon</p>
+              <p className="text-wrap  text-[12px] md:text-2xl">
+                Contract: AcaDeMYwmB6VvZZK7BrYnQawMknnHKbvihPXKoYPgmaf
+              </p>
 
               <a
-                href={'https://buy'}
+                href={
+                  'https://raydium.io/swap/?inputMint=sol&outputMint=AcaDeMYwmB6VvZZK7BrYnQawMknnHKbvihPXKoYPgmaf'
+                }
                 target="_blank"
                 className="min-w-16 py-2.5 px-9  text-[var(--button-text)] rounded-[5px]  buttonHover text-center max-w-24 md:max-w-[300px] m-auto"
                 data-aos-anchor-placement="top-bottom"
