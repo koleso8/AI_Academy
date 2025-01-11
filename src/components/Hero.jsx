@@ -39,7 +39,7 @@ const Hero = () => {
           data-aos-duration="2000"
           data-aos-anchor-placement="top-bottom"
         >
-          <Button text={'ACADEMY'} link={'https://app.agntacademy.ai'} />
+          <Button text={'START ACADEMY'} link={'https://app.agntacademy.ai'} />
         </div>
         <div className="hidden md:flex fixed bottom-6 right-6 ">
           <Navigation />
