@@ -26,7 +26,7 @@ const Navigation = () => {
       <a
         href="tg"
         target="_blank"
-        className="flex w-12 h-12 border-2 rounded-full items-center justify-center hover:scale-105 transition-all hover:border-[#6ebefb]"
+        className="flex w-12 h-12 border-2 rounded-full pr-1 items-center justify-center hover:scale-105 transition-all hover:border-[#6ebefb]"
       >
         <FaTelegramPlane color="#fff" size={30} />
       </a>

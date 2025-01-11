@@ -15,6 +15,9 @@ const Hero = () => {
     <Container>
       <div className="flex flex-col items-center gap-4 relative">
         <Logo />
+        <div className=" md:hidden ">
+          <Navigation />
+        </div>
         <h1
           className="font-bold text-4xl text-white text-center"
           data-aos="fade-right"
@@ -38,7 +41,7 @@ const Hero = () => {
         >
           <Button text={'ACADEMY'} link={'https://app.agntacademy.ai'} />
         </div>
-        <div className="absolute md:-bottom-3 md:-left-[268px] left-[60px] bottom-[160px] ">
+        <div className="hidden md:flex fixed bottom-6 right-6 ">
           <Navigation />
         </div>
       </div>
