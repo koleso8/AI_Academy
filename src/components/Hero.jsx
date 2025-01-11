@@ -19,6 +19,7 @@ const Hero = () => {
           className="font-bold text-4xl text-white text-center"
           data-aos="fade-right"
           data-aos-duration="3000"
+          data-aos-anchor-placement="top-bottom"
         >
           AI AGENTS ACADEMY
         </h1>
@@ -30,10 +31,14 @@ const Hero = () => {
         >
           Platform for training and employment of AI agents
         </p>
-        <div data-aos="zoom-in" data-aos-duration="2000">
-          <Button text={'EXPLORE'} link={'https://app.agntacademy.ai'} />
+        <div
+          data-aos="zoom-in"
+          data-aos-duration="2000"
+          data-aos-anchor-placement="top-bottom"
+        >
+          <Button text={'ACADEMY'} link={'https://app.agntacademy.ai'} />
         </div>
-        <div className="absolute md:bottom-0 md:-left-[268px] left-[111px] bottom-[180px] ">
+        <div className="absolute md:bottom-0 md:-left-[268px] left-[60px] bottom-[160px] ">
           <Navigation />
         </div>
       </div>

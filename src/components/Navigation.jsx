@@ -30,6 +30,24 @@ const Navigation = () => {
       >
         <FaTelegramPlane color="#fff" size={30} />
       </a>
+      <a
+        href="tg"
+        target="_blank"
+        className="flex w-12 h-12 border-2 rounded-full items-center justify-center hover:scale-105 transition-all hover:border-[#6ebefb]"
+      >
+        <img src="/raydium.png" width={25}></img>
+      </a>
+      <a
+        href="tg"
+        target="_blank"
+        className="flex w-12 h-12 border-2 rounded-full items-center justify-center hover:scale-105 transition-all hover:border-[#6ebefb]"
+      >
+        <img
+          src="/dexscreener.png"
+          width={60}
+          style={{ maxWidth: '130%' }}
+        ></img>
+      </a>
     </nav>
   );
 };

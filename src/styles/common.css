@@ -45,7 +45,7 @@
   color: #fff;
   width: 320px;
   @media (min-width: 768px) {
-    width: 460px;
+    width: 340px;
   }
 }
 
@@ -55,38 +55,41 @@
 
 .tokenList {
   line-height: 16px;
-  li {
-    padding: 20px;
-  }
+
   :nth-child(1) {
     margin-left: 0;
     @media (min-width: 768px) {
-      margin-left: 268px;
+      /* margin-left: 400px; */
     }
   }
-  :nth-child(2),
-  :nth-child(4) {
+  :nth-child(2) {
     margin-left: 0;
     @media (min-width: 768px) {
-      margin-left: 368px;
+      /* margin-left: 360px; */
     }
   }
   :nth-child(3) {
     margin-left: 0;
     @media (min-width: 768px) {
-      margin-left: 468px;
+      /* margin-left: 468px; */
+    }
+  }
+  :nth-child(4) {
+    margin-left: 0;
+    @media (min-width: 768px) {
+      /* margin-left: 360px; */
     }
   }
   :nth-child(5) {
     margin-left: 0;
     @media (min-width: 768px) {
-      margin-left: 310px;
+      /* margin-left: 310px; */
     }
   }
   :nth-child(6) {
     margin-left: 0;
     @media (min-width: 768px) {
-      margin-left: 230px;
+      /* margin-left: 230px; */
     }
   }
 }

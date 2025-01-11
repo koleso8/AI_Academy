@@ -4,7 +4,6 @@ import 'aos/dist/aos.css';
 
 import Container from './Container';
 import { IoMdArrowDown } from 'react-icons/io';
-import { Link } from 'react-router-dom';
 import { scrollToBottom } from '../helpers/scrollToBottom';
 
 const Structure_1 = () => {
