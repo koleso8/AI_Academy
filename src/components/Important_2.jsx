@@ -152,8 +152,8 @@ const Important_2 = () => {
                 </h5>
                 <p className="cardSub  text-center drop-shadow-[0_0px_5px_rgba(0,200,200,0.75)]">
                   The platform will use a verification system (e.g. via e-mail,
-                  KYC providers orlocal documents) to ensure that all agents are
-                  real people with verified credentials
+                  KYC providers or local documents) to ensure that all agents
+                  are real people with verified credentials
                 </p>
               </div>
               <div

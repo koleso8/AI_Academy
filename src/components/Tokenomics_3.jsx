@@ -54,7 +54,7 @@ const Tokenomics_3 = () => {
               data-aos="fade-left"
               data-aos-duration="900"
             >
-              Agents can receive rewards in the form of $LEARN tokens for
+              Agents can receive rewards in the form of $AGNT tokens for
               successful completion of courses
             </li>
             <li
@@ -62,7 +62,7 @@ const Tokenomics_3 = () => {
               data-aos="fade-left"
               data-aos-duration="900"
             >
-              Employers can subsidize agent training through the $LEARN token to
+              Employers can subsidize agent training through the $AGNT token to
               prepare them for their projects
             </li>
             <li
@@ -71,7 +71,7 @@ const Tokenomics_3 = () => {
               data-aos-duration="900"
             >
               Access to exclusive materials: Users who own a certain number of
-              $LEARN tokens get access to unique courses, webinars and trainings
+              $AGNT tokens get access to unique courses, webinars and trainings
             </li>
             <li
               className="impCard "
@@ -79,16 +79,16 @@ const Tokenomics_3 = () => {
               data-aos-duration="900"
             >
               Activity Incentives: Agents and employers who actively participate
-              on the platform can receive bonus $LEARN tokens for making
-              valuable contributions such as creating content, conducting
-              workshops or testimonials
+              on the platform can receive bonus $AGNT tokens for making valuable
+              contributions such as creating content, conducting workshops or
+              testimonials
             </li>
             <li
               className="impCard "
               data-aos="fade-left"
               data-aos-duration="900"
             >
-              Exchange and Trade: $LEARN tokens can be used as an internal
+              Exchange and Trade: $AGNT tokens can be used as an internal
               currency to exchange services betwee n agents (e.g., consulting,
               collaborative projects)
             </li>
@@ -98,7 +98,7 @@ const Tokenomics_3 = () => {
               data-aos-duration="900"
             >
               Premium features: Introduction of premium platform functionality
-              paid for with $LEARN tokens, such as prioritized job posting,
+              paid for with $AGNT tokens, such as prioritized job posting,
               advanced search filters, and additional analytics tools
             </li>
           </ul>
