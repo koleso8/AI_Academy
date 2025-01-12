@@ -48,6 +48,13 @@ const Navigation = () => {
           style={{ maxWidth: '130%' }}
         ></img>
       </a>
+      <a
+        href="https://t.me/AgntAcademyBot"
+        target="_blank"
+        className="flex w-12 h-12 border-2 rounded-full items-center justify-center hover:scale-105 transition-all hover:border-[#6ebefb]"
+      >
+        <img src="/study.png" width={60}></img>
+      </a>
     </nav>
   );
 };
